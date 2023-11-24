@@ -1,3 +1,4 @@
+#Import modules 
 import tkinter as tk 
 from tkinter import ttk, filedialog
 import os
@@ -13,6 +14,7 @@ root.title("Music Player")
 root.configure(bg='white')
 s = ttk.Style(root)
 s.theme_use('vista')
+
 
 
 # The user buttons
